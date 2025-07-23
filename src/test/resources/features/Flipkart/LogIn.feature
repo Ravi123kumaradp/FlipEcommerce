@@ -9,5 +9,5 @@ Feature: Flipkart Login Functionality
 
 
     Examples:
-      | mobileNumber       |
-      | 9113672922         |
+      | mobileNumber       |password|
+      | 9113672922         |123     |
