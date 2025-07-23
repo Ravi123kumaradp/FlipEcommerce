@@ -6,7 +6,8 @@ Feature: Flipkart Login Functionality
     Then User enters "<mobileNumber>"
     And User clicks on requestOTP button
     Then User clicks on verify button
-
+gwdoiwqd
+hjvwfkjbwqlfuwq
 
     Examples:
       | mobileNumber       |password|
