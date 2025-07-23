@@ -6,8 +6,9 @@ Feature: Flipkart Login Functionality
     Then User enters "<mobileNumber>"
     And User clicks on requestOTP button
     Then User clicks on verify button
-  And  User enters "<password>"
-  And  User verifies Otp manually
+  And  user enters "<password>"
+    And User clicks on login button
+    Then User should be redirected to the homepage
 
 
     Examples:
